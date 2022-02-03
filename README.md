@@ -18,7 +18,8 @@ docker volume create mysql-data
 * Run Docker image
 docker run -d --name=mysql-server -p 3306:3306 -v mysql-data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=your_password mysql
 * Reference
-Reference https://linuxiac.com/mysql-docker-container/
+
+ https://linuxiac.com/mysql-docker-container/
 ## Configuration
 
 Edit the file `application.properties` and change **your-username**, **your-password** and **your-database** values.
